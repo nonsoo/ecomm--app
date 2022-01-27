@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 const CountProduct = () => {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(1);
 
   const decrementCount = () => {
-    if (count <= 0) {
-      setCount(0);
+    if (count <= 1) {
+      setCount(1);
     } else {
       setCount((prevCount) => prevCount - 1);
     }
