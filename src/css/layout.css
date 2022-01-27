@@ -1,3 +1,4 @@
+@import url(https://fonts.google.com/specimen/Kumbh+Sans);
 *,
 *::before,
 *::after {
@@ -27,4 +28,6 @@
   --col-Sec-lGrayBlue: hsl(223, 64%, 98%);
   --col-Sec-white: hsl(0, 0%, 100%);
   --col-Sec-black: rgba(0, 0, 0, 0.75);
+
+  /* Mobile size 375 and Desktop 1440 */
 }
