@@ -33,7 +33,7 @@
 }
 
 .nav__Cart {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 
   cursor: pointer;
 }
@@ -42,6 +42,25 @@
   height: 40px;
 
   margin-left: 2.5rem;
+}
+
+.nav__RightCon {
+  position: relative;
+}
+
+.currQtyIndicator {
+  background-color: var(--col-Prmy-orange);
+  color: var(--col-Sec-white);
+  position: absolute;
+
+  font-size: 0.75rem;
+  padding: 0.25em 0.55em;
+  border-radius: 5px;
+
+  bottom: 20px;
+  left: 10px;
+
+  z-index: -43;
 }
 
 .ProductSection {
