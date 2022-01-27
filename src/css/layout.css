@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Variables */
+
+  --ff--prmy: "Kumbh Sans", sans-serif;
+
+  /* Font Weight */
+  --fw-prmy: 400;
+  --fw-sec: 700;
+
+  /* Font Size */
+  --fs-prmy: 1rem;
+
+  /* Colours */
+  --col-Prmy-orange: hsl(26, 100%, 55%);
+  --col-Prmy-PaleOrange: hsl(25, 100%, 94%);
+
+  --col-Sec-DarkBlue: hsl(220, 13%, 13%);
+  --col-Sec-grayBlue: hsl(219, 9%, 45%);
+  --col-Sec-lGrayBlue: hsl(223, 64%, 98%);
+  --col-Sec-white: hsl(0, 0%, 100%);
+  --col-Sec-black: rgba(0, 0, 0, 0.75);
+}
