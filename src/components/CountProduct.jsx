@@ -1,24 +1,25 @@
-import React, { useState } from "react";
+import React from "react";
+import { useDispatch, useSelector } from "react-redux";
+
+import { incrementQty, decreaseQty } from "../redux/counter";
 
 const CountProduct = () => {
-  const [count, setCount] = useState(1);
+  const dispatch = useDispatch();
 
-  const decrementCount = () => {
-    if (count <= 1) {
-      setCount(1);
-    } else {
-      setCount((prevCount) => prevCount - 1);
-    }
-  };
+  const currentQty = useSelector((state) => state.CounterReducer.qty);
+
   return (
     <div className="counter">
-      <button className="counter__Neg btn" onClick={() => decrementCount()}>
+      <button
+        className="counter__Neg btn"
+        onClick={() => dispatch(decreaseQty())}
+      >
         -
       </button>
-      <p className="counter__count">{count}</p>
+      <p className="counter__count">{currentQty}</p>
       <button
         className="counter__Pos btn"
-        onClick={() => setCount((prevCount) => prevCount + 1)}
+        onClick={() => dispatch(incrementQty())}
       >
         +
       </button>
