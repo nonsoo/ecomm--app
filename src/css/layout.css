@@ -44,4 +44,6 @@
   font-size: var(--fs-prmy);
   font-weight: var(--fw-prmy);
   font-family: var(--ff--prmy);
+
+  margin: 0 auto;
 }

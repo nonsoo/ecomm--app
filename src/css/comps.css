@@ -5,6 +5,7 @@
   padding-bottom: 2.25rem;
 
   border-bottom: 1px solid rgba(117, 117, 117, 0.5);
+  position: relative;
 }
 
 .nav__LeftCon {
@@ -161,12 +162,15 @@
 }
 
 .CartCont {
-  width: 30%;
+  width: 20%;
 
   background-color: var(--col-Sec-white);
   box-shadow: 2px 5px 10px rgba(152, 153, 155, 0.4);
   border-radius: 5px;
   padding: 1em;
+
+  position: absolute;
+  left: 55%;
 }
 
 .cartTitle {
