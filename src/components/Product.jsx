@@ -1,7 +1,8 @@
 import React from "react";
 import Product1 from "../images/image-product-1.jpg";
+import { MdShoppingCart } from "react-icons/md";
 
-import Counter from "./CountProduct";
+import CounterProd from "./CountProduct";
 
 const Product = () => {
   return (
@@ -18,7 +19,12 @@ const Product = () => {
           the weather can offer.
         </p>
         <p className="productText_Price">$125.00</p>
-        <Counter />
+        <div className="productQ">
+          <CounterProd />
+          <button className="product__Btn">
+            <MdShoppingCart /> Add to cart
+          </button>
+        </div>
       </div>
     </section>
   );

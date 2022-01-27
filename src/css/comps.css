@@ -84,4 +84,46 @@
 .productText_Price {
   font-size: 1.75rem;
   font-weight: var(--fw-sec);
+  margin-bottom: 2rem;
+}
+
+.counter {
+  display: inline-flex;
+  gap: 0.75rem;
+  padding: 0.75em;
+  border-radius: 5px;
+  background-color: rgba(104, 112, 125, 0.1);
+
+  align-items: baseline;
+}
+
+.btn {
+  border: none;
+  padding: 0em 1em;
+  font-size: var(--fs-prmy-mid);
+  font-weight: var(--fw-sec);
+  cursor: pointer;
+
+  color: var(--col-Prmy-orange);
+  background-color: rgba(104, 112, 125, 0);
+}
+
+.counter__count {
+  max-width: 10%;
+}
+
+.product__Btn {
+  border: none;
+  padding: 0.75em 2.5em;
+  border-radius: 10px;
+  background-color: rgba(104, 112, 125, 0.1);
+
+  font-size: var(--fs-prmy-mid);
+  font-weight: var(--fw-sec);
+  color: var(--col-Sec-white);
+  background-color: var(--col-Prmy-orange);
+
+  margin-left: 2rem;
+
+  cursor: pointer;
 }
