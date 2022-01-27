@@ -162,7 +162,7 @@
 }
 
 .CartCont {
-  width: 20%;
+  width: 40%;
 
   background-color: var(--col-Sec-white);
   box-shadow: 2px 5px 10px rgba(152, 153, 155, 0.4);
@@ -170,7 +170,8 @@
   padding: 1em;
 
   position: absolute;
-  left: 55%;
+  left: 60%;
+  top: 100px;
 }
 
 .cartTitle {
@@ -252,5 +253,10 @@
 
   .productText__Descri {
     width: 100%;
+  }
+
+  .CartCont {
+    width: 100%;
+    left: 0px;
   }
 }

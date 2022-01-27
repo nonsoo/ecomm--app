@@ -24,8 +24,8 @@ const Nav = () => {
           />
           <img src={ImageAvatar} alt="logged in user" className="nav__Image" />
         </div>
+        {showCart && <ShoppingCart />}
       </nav>
-      {showCart && <ShoppingCart />}
     </>
   );
 };
