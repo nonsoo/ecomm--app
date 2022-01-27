@@ -161,6 +161,9 @@
 }
 
 @media screen and (max-width: 800px) {
+  .nav__NavItem {
+    display: none;
+  }
   .ProductSection,
   .productQ {
     flex-direction: column;
