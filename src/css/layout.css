@@ -18,6 +18,9 @@
 
   /* Font Size */
   --fs-prmy: 1rem;
+  --fs-prmy-mid: 1.5rem;
+  --fs-sec: 2.25rem;
+  --fs-tri: 3rem;
 
   /* Colours */
   --col-Prmy-orange: hsl(26, 100%, 55%);
@@ -30,4 +33,15 @@
   --col-Sec-black: rgba(0, 0, 0, 0.75);
 
   /* Mobile size 375 and Desktop 1440 */
+}
+
+.App {
+  max-width: 1440px;
+  min-width: 375px;
+
+  padding: 3rem;
+
+  font-size: var(--fs-prmy);
+  font-weight: var(--fw-prmy);
+  font-family: var(--ff--prmy);
 }

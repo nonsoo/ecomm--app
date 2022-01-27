@@ -1,10 +1,14 @@
-import "./css/App.css";
 import "./css/layout.css";
+import "./css/comps.css";
+
+import Nav from "./components/Nav";
+import Product from "./components/Product";
 
 function App() {
   return (
     <div className="App">
-      <p>hello world</p>
+      <Nav />
+      <Product />
     </div>
   );
 }
