@@ -18,7 +18,10 @@ const Product = () => {
           Featuring a durable rubber outer sole, they'll withstand everything
           the weather can offer.
         </p>
-        <p className="productText_Price">$125.00</p>
+        <p className="productText_Price">
+          $125.00 <span>50%</span>
+        </p>
+        <p className="productText_Price-cancel">$250.00</p>
         <div className="productQ">
           <CounterProd />
           <button className="product__Btn">

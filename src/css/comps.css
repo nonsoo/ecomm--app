@@ -22,6 +22,15 @@
   color: black;
 }
 
+.nav__NavItem {
+  cursor: pointer;
+  transition: 1.2s;
+}
+
+.nav__NavItem:hover {
+  border-bottom: 1px solid var(--col-Prmy-orange);
+}
+
 .nav__Cart {
   font-size: 1.5em;
 
@@ -84,7 +93,25 @@
 .productText_Price {
   font-size: 1.75rem;
   font-weight: var(--fw-sec);
+  margin-bottom: 0.75rem;
+}
+
+.productText_Price-cancel {
   margin-bottom: 2rem;
+  font-weight: var(--fw-sec);
+  color: var(--col-Sec-grayBlue);
+  text-decoration: line-through;
+  font-size: 0.95rem;
+}
+.productText_Price span {
+  padding: 0.35em;
+  font-weight: var(--fw-sec);
+  font-size: 0.95rem;
+
+  margin-left: 1rem;
+
+  background-color: var(--col-Prmy-PaleOrange);
+  color: var(--col-Prmy-orange);
 }
 
 .counter {
@@ -110,6 +137,7 @@
 
 .counter__count {
   max-width: 10%;
+  font-weight: var(--fw-sec);
 }
 
 .product__Btn {
