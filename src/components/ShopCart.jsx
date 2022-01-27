@@ -19,7 +19,9 @@ const ShopCart = () => {
             itemSubTotal={currCart.ProdPrice * currCart.currentQty}
           />
         ) : (
-          <p>nothing to show</p>
+          <div className="emptyCartSign">
+            <p>Your cart is empty.</p>
+          </div>
         )}
       </div>
       {currCart && <button className="checkoutBtn">Checkout</button>}

@@ -1,4 +1,5 @@
 import React from "react";
+import { IoTrashOutline } from "react-icons/io5";
 
 const CartItem = ({ imgName, itemName, itemPrice, itemQty, itemSubTotal }) => {
   return (
@@ -10,6 +11,7 @@ const CartItem = ({ imgName, itemName, itemPrice, itemQty, itemSubTotal }) => {
           {`$${itemPrice}`} x {itemQty} <span>$ {`$${itemSubTotal}`}</span>
         </p>
       </div>
+      <IoTrashOutline className="cartItem__Trash" />
     </div>
   );
 };
